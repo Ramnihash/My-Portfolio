@@ -30,17 +30,19 @@ body {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    line-height: 21px;
-    transition: opacity 0.3s;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .btn-contact {
     background-color: #efeeee;
-    color: black;
     padding: 9px 18px;
     border-radius: 30px;
     border: none;
+}
+
+.btn-contact a {
+    color: black;
+    text-decoration: none;
     font-weight: 600;
     font-size: 16px;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -50,8 +52,9 @@ body {
     position: absolute;
     top: 70px;
     left: 24px;
+    bottom: 24px;
     width: 1392px;
-    height: 3500px;
+    height: 2600px;
     border-radius: 20px;
     background-color: #000;
     background-image: url("Frame 2.png");
@@ -73,7 +76,7 @@ body {
 }
 
 .hero-title {
-    font-family: ' Grotesque', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
     line-height: normal;
@@ -101,8 +104,18 @@ body {
     text-align: center;
 }
 
+.aboutme-header {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: normal;
+    color: white;
+    text-align: center;
+    margin-top: 110px
+}
+
 .about-title {
-    font-family: 'Grotesque', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 70px;
     font-weight: 800;
     line-height: normal;
@@ -204,7 +217,7 @@ body {
 }
 
 .project-info h3 {
-    font-family: 'Grotesque', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -269,7 +282,16 @@ body {
     border-radius: 10px
 }
 
-.timeline {
+.separator-line {
+    position: absolute;
+    top: 2300px;
+    left: 100px;
+    width: 1205px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contact {
     position: absolute;
     top: 2350px;
     left: 100px;
@@ -278,262 +300,26 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.timeline-header-top {
-    margin-bottom: 20px;
-}
-
-.timeline-title-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 60px;
-}
-
-.timeline-heading {
-    font-family: 'Grotesque', sans-serif;
-    font-size: 60px;
-    font-weight: 700;
-    color: white;
-    margin: 0;
-}
-
-.btn-resume {
-    background: linear-gradient(90deg, #a571e9, #6993da);
-    color: black;
-    padding: 12px 24px;
-    border-radius: 30px;
-    border: none;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.timeline-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.timeline-item {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.item-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 8px;
-}
-
-.role {
-    font-size: 24px;
-    font-weight: 700;
-    color: white;
-}
-
-.date {
-    font-size: 16px;
-    font-weight: 400;
-    color: #7a7a7a;
+.contact h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.company {
-    font-size: 20px;
-    color: #efeeee;
-    margin-bottom: 16px;
-    font-weight: 500;
-}
-
-.description {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #a0a0a0;
-    max-width: 800px;
-}
-
-.separator-line {
-    position: absolute;
-    top: 3100px;
-    left: 100px;
-    width: 1205px;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-.contact-section {
-    position: absolute;
-    top: 3150px;
-    left: 100px;
-    width: 1205px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contact-left {
-    flex: 0 0 auto;
-}
-
-.contact-header {
-    font-family: 'Grotesque', sans-serif;
     font-size: 50px;
     font-weight: 800;
-    color: white;
-}
-
-.contact-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 24px;
-}
-
-.contact-info-row {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 20px;
-    color: white;
-}
-
-.contact-phone {
-    color: white;
-    font-weight: 400;
-}
-
-.info-divider {
-    color: #7a7a7a;
-}
-
-.contact-email {
-    color: white;
-    text-decoration: none
-}
-
-
-.social-row {
-    display: flex;
-    gap: 24px;
-}
-
-.social-link {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #efeeee;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: none;
-    padding: 0;
-    background: none;
-}
-
-
-
-.footer-name {
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-family: 'Grotesque', sans-serif;
-    font-size: 10.5vw;
-    font-weight: 800;
-    color: rgba(255, 255, 255, 0.08);
-    line-height: 1;
-    white-space: nowrap;
-    pointer-events: none;
-    user-select: none;
-    letter-spacing: -2px;
-}
-
-/* About Me Page Styles */
-.aboutme-container {
-    position: absolute;
-    top: 150px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 100px;
-    box-sizing: border-box;
-    z-index: 10;
-}
-
-.aboutme-header {
-    font-family: 'Grotesque', sans-serif;
-    font-size: 100px;
-    font-weight: 800;
-    color: white;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-.aboutme-content {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.aboutme-text-block {
-    width: 600px;
-    text-align: center;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 20px;
-    line-height: 1.8;
-    color: #efeeee;
-    background: rgba(0, 0, 0, 0.6);
-    /* Slight bg for readability overlap */
-    padding: 40px;
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    z-index: 2;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.aboutme-text-block p {
     margin-bottom: 24px;
 }
 
-.aboutme-text-block p:last-child {
-    margin-bottom: 0;
+.contact .contact-links {
+    display: flex;
+    gap: 12px;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 12px;
 }
 
-.scatter-img {
-    position: absolute;
-    border-radius: 12px;
-    opacity: 0.8;
-    transition: transform 0.3s, opacity 0.3s;
-    z-index: 1;
-    filter: grayscale(20%);
+.contact a {
+    color: white;
+    text-decoration: none;
 }
 
-.scatter-img:hover {
-    transform: scale(1.05);
-    opacity: 1;
-    filter: grayscale(0%);
-    z-index: 3;
-}
-
-.img-1 {
-    width: 250px;
-    top: -40px;
-    left: 0;
-    transform: rotate(-5deg);
-}
-
-.img-2 {
-    width: 280px;
-    bottom: -20px;
-    right: 0;
-    transform: rotate(5deg);
+.contact .divider {
+    color: #7a7a7a;
 }

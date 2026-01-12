@@ -4,10 +4,6 @@
 
 <head>
     <title>My Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -15,24 +11,24 @@
     <header>
         <nav id="navbar">
             <div class="logo">
-                <img src="Frame 5.png" width="93px" height="34px" />
+                <a href="#home"><img src="Frame 5.png" width="93px" height="34px" /></a>
             </div>
             <ul class="nav-links">
                 <li class="links"><a href="#home">Home</a></li>
-                <li class="links"><a href="aboutme.html">About</a></li>
+                <li class="links"><a href="about.html">About</a></li>
                 <li class="links"><a href="#projects">Projects</a></li>
             </ul>
-            <button class="btn-contact"><a href="#contact-section">Contact</a></button>
+            <a href="#contact-section" class="btn-contact">Contact</a>
         </nav>
     </header>
     <div class="main_frame" id="home">
         <p class="hero-intro">Hi, I'm Ram</p>
         <p class="hero-title">a user-focused developer,<br />interface thinker,</p>
-        <p class="hero-subtitle"> & learning by building real projects.</p>
+        <p class="hero-subtitle">and learning by building real projects.</p>
         <p class="hero-help">Scroll down &darr; to know more</p>
         <h1 class="about-title">About Me</h1>
         <section class="about-section">
-            <img src="about_me.png" class="about-image" alt="About Me">
+            <img src="WhatsApp Image 2026-01-12 at 4.33.08 PM.jpeg" class="about-image" alt="About Me">
             <div class="about-content">
                 <p class="about-text">
                     I'm Ramnihash, a second-year Computer Science and Engineering student at VIT, originally from Pune,
@@ -44,12 +40,12 @@
                     Outside academics, I like playing cricket, which helps me stay active, clear my mind, and maintain a
                     healthy balance alongside my studies.
                 </p>
-                <button class="about-btn"><a href="aboutme.html">Know More</a></button>
+                <a href="about.html" class="about-btn">Know More</a>
             </div>
 
         </section>
         <span class="projects-title" id="projects">Projects</span>
-        <div class="projects-grid">
+        <section class="projects-grid">
             <div class="project-card project-card-1">
                 <img src="Frame 443.png" class="project-img-1" alt="Project 1">
                 <div class="project-info">
@@ -87,10 +83,9 @@
                         user-friendly checkout process that reduces friction and builds trust.</p>
                 </div>
             </div>
-        </div>
-
+        </section>
         <div class="separator-line"></div>
-        <div class="contact" id="contact-section">
+        <footer class="contact" id="contact-section">
             <h2>Contact</h2>
             <div class="contact-links">
                 <a href="mailto:ramnihashreddy@gmail.com">ramnihashreddy@gmail.com</a>
@@ -100,7 +95,7 @@
                 <a href="https://github.com/Ramnihash">GitHub</a>
             </div>
             <p class="phone-number">+91 9130977264</p>
-        </div>
+        </footer>
     </div>
 </body>
 

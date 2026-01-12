@@ -24,7 +24,6 @@ body {
     gap: 24px;
 }
 
-
 .links a {
     color: #efeeee;
     text-decoration: none;
@@ -38,9 +37,6 @@ body {
     padding: 9px 18px;
     border-radius: 30px;
     border: none;
-}
-
-.btn-contact a {
     color: black;
     text-decoration: none;
     font-weight: 600;
@@ -104,15 +100,6 @@ body {
     text-align: center;
 }
 
-.aboutme-header {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 100px;
-    font-weight: 800;
-    line-height: normal;
-    color: white;
-    text-align: center;
-    margin-top: 110px
-}
 
 .about-title {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -166,15 +153,15 @@ body {
 
 .about-btn {
     background-color: #efeeee;
-    color: black;
     padding: 9px 18px;
     border-radius: 30px;
     border: none;
     font-weight: 600;
     font-size: 16px;
     font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+    text-decoration: none;
 }
-
 
 .projects-title {
     position: absolute;
@@ -320,6 +307,69 @@ body {
     text-decoration: none;
 }
 
-.contact .divider {
-    color: #7a7a7a;
+.aboutme-frame {
+    left: 24px;
+    top: 24px;
+    width: 1392px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: #000;
+    background-image: url("Frame 2.png");
+}
+
+.aboutme-container {
+    top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+.aboutme-container h1 {
+    margin-top: 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: normal;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aboutme-content {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.aboutme-text-block {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    color: #efeeee;
+}
+
+.decor-img {
+    position: absolute;
+    border-radius: 12px;
+    width: 250px;
+    height: auto;
+}
+
+.decor-1 {
+    top: 100px;
+    right: 50px;
+}
+
+.decor-2 {
+    top: 200px;
+    left: 50px;
 }
